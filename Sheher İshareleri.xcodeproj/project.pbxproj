@@ -13,6 +13,12 @@
 		91E8F51421DA938800300209 /* Sheher_I_shareleri.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91E8F51221DA938800300209 /* Sheher_I_shareleri.xcdatamodeld */; };
 		91E8F51621DA938900300209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E8F51521DA938900300209 /* Assets.xcassets */; };
 		91E8F51921DA938900300209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E8F51721DA938900300209 /* LaunchScreen.storyboard */; };
+		91E8F52521DA955000300209 /* collesium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E8F52021DA954F00300209 /* collesium.jpg */; };
+		91E8F52621DA955000300209 /* tajmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E8F52121DA955000300209 /* tajmahal.jpg */; };
+		91E8F52721DA955000300209 /* kremlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E8F52221DA955000300209 /* kremlin.jpg */; };
+		91E8F52821DA955000300209 /* greatwall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E8F52321DA955000300209 /* greatwall.jpg */; };
+		91E8F52921DA955000300209 /* stonehenge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E8F52421DA955000300209 /* stonehenge.jpg */; };
+		91E8F52C21DA9C4900300209 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E8F52B21DA9C4900300209 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		91E8F51521DA938900300209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E8F51821DA938900300209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91E8F51A21DA938900300209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E8F52021DA954F00300209 /* collesium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collesium.jpg; sourceTree = "<group>"; };
+		91E8F52121DA955000300209 /* tajmahal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tajmahal.jpg; sourceTree = "<group>"; };
+		91E8F52221DA955000300209 /* kremlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kremlin.jpg; sourceTree = "<group>"; };
+		91E8F52321DA955000300209 /* greatwall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatwall.jpg; sourceTree = "<group>"; };
+		91E8F52421DA955000300209 /* stonehenge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonehenge.jpg; sourceTree = "<group>"; };
+		91E8F52B21DA9C4900300209 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,29 @@
 		91E8F50A21DA938800300209 /* Sheher İshareleri */ = {
 			isa = PBXGroup;
 			children = (
+				91E8F52A21DA955C00300209 /* images */,
 				91E8F50B21DA938800300209 /* AppDelegate.swift */,
 				91E8F50D21DA938800300209 /* ViewController.swift */,
 				91E8F50F21DA938800300209 /* Main.storyboard */,
+				91E8F52B21DA9C4900300209 /* ImageViewController.swift */,
 				91E8F51521DA938900300209 /* Assets.xcassets */,
 				91E8F51721DA938900300209 /* LaunchScreen.storyboard */,
 				91E8F51A21DA938900300209 /* Info.plist */,
 				91E8F51221DA938800300209 /* Sheher_I_shareleri.xcdatamodeld */,
 			);
 			path = "Sheher İshareleri";
+			sourceTree = "<group>";
+		};
+		91E8F52A21DA955C00300209 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				91E8F52321DA955000300209 /* greatwall.jpg */,
+				91E8F52221DA955000300209 /* kremlin.jpg */,
+				91E8F52421DA955000300209 /* stonehenge.jpg */,
+				91E8F52121DA955000300209 /* tajmahal.jpg */,
+				91E8F52021DA954F00300209 /* collesium.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +152,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E8F51921DA938900300209 /* LaunchScreen.storyboard in Resources */,
+				91E8F52821DA955000300209 /* greatwall.jpg in Resources */,
+				91E8F52521DA955000300209 /* collesium.jpg in Resources */,
 				91E8F51621DA938900300209 /* Assets.xcassets in Resources */,
 				91E8F51121DA938800300209 /* Main.storyboard in Resources */,
+				91E8F52921DA955000300209 /* stonehenge.jpg in Resources */,
+				91E8F52721DA955000300209 /* kremlin.jpg in Resources */,
+				91E8F52621DA955000300209 /* tajmahal.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +171,7 @@
 			files = (
 				91E8F51421DA938800300209 /* Sheher_I_shareleri.xcdatamodeld in Sources */,
 				91E8F50E21DA938800300209 /* ViewController.swift in Sources */,
+				91E8F52C21DA9C4900300209 /* ImageViewController.swift in Sources */,
 				91E8F50C21DA938800300209 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
